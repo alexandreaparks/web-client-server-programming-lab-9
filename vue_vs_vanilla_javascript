@@ -1,0 +1,19 @@
+When comparing the Vue version of the Student Club Roster to the Vanilla JavaScript(VJ) version,
+the first big difference I notice is that with Vue, you need a lot less variables. With VJ, you have
+to create a lot of variables to access all the HTML elements and work with them by using document.querySelector().
+With Vue, you use the same variable names in the HTML template as you do in the JavaScript.
+
+Another difference is that you don't need event listeners with Vue like you need with VJ. You can use v-on directives
+to call a function when something is clicked or there is input provided.
+
+Another difference is that with Vue, you don't need to change the inner HTML of elements. You instead change the values
+in the script and the page reacts automatically to reflect the changes when you use the v-model directive.
+
+Another difference is that you can use a computed function to calculate and automatically change something based on data
+and that data changing. In VJ, you have to make sure you're always updating the value of something with changes, meaning
+you have to write the same line of code in multiple event handlers and functions with VS.
+
+After getting a better understanding of Vue, I think I prefer using Vue over VJ. It seemed intimidating at first, but
+I now think it's more simple than Vanilla JavaScript and allows for less code because it uses data binding and reacts
+immediately to changes in the webpage. It's kind of like Vue makes HTML and the script become fast friends. With
+Vanilla JavaScript, you have to tell the script a lot more about the HTML before they can work together and be friends.
